@@ -1,8 +1,14 @@
 .flex-container{
     display: flex;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
+
+.table td, 
+.table th{
+    padding: 1em 0 0 0;
+}
+
 .information-section{
     width: 50%;
 }
@@ -12,7 +18,7 @@
     font-size: 3rem;
 }
 .information-section__address{
-    padding: 1rem 0 0 1rem;
+    padding-top: 1em;
     font-weight: 600;
 }
 

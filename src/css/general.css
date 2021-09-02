@@ -6,7 +6,7 @@ body{
     min-height: 100%;
     max-width: 1440px;
     margin: auto;
-    padding-top: 7rem;
+    padding-top: 7.125rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -15,6 +15,9 @@ body{
 main{
     padding: 1rem 8rem 0 8rem;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 a {
@@ -43,23 +46,20 @@ p{
 }
 
 @media (max-width: 57.5rem){
-    /* || GENERAL */
-    body{
-        padding-top: 5rem;
-    }
-
+   body{
+       padding-top: 5.125rem;
+   }
 }
 
-
 @media(max-width: 40rem){
-    /* || GENERAL */
+
     body{
-        padding-top: 5rem;
+        padding-top: 4.5rem;
     }
 }
 
 @media (max-width: 37.5rem){
-    /* || GENERAL + MAIN HEADER */
+
     main{
         padding: 1rem 1rem 0 1rem; 
     }

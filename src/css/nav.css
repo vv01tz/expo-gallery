@@ -24,14 +24,17 @@
     font-family: "Playfair Display", serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    padding: 1rem;
+}
+
+.main-header__nav-item + .main-header__nav-item{
+    padding-left: 1em;
 }
 
 /* || HAMBURGER BUTTON */
 .main-header__nav-btn{
     display: none;
-    height: 60px;
-    width: 60px;
+    height: 3.75rem;
+    width: 3.75rem;
     border: none;
     border-radius: 50%;
     background: #000;
@@ -61,23 +64,23 @@
 }
 
 .ham-btn::before{
-    top: 20px;
+    top: 1.25rem;
 }
 
 .ham-btn::after{
-    bottom: 20px;
+    bottom: 1.25rem;
 }
 
 .open .ham-btn{
     background: red;
 }
 .open .ham-btn::before{
-    transform: translateY(-20px);
+    transform: translateY(-1.25rem);
     opacity: 0;
 }
 
 .open .ham-btn::after{
-    transform: translateY(20px);
+    transform: translateY(1.25rem);
     opacity: 0;
 }
 

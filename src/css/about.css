@@ -1,7 +1,8 @@
 /* A PROPOS */
 .apropos__banner {
     width: 100%;
-    height: 12vh;
+    height: 40vh;
+    max-height: 30rem;
 }
 
 .apropos__banner img{

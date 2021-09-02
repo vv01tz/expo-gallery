@@ -1,0 +1,1 @@
+const navBar=document.querySelector("#navbar"),hamBtn=document.querySelector("#nav-btn");hamBtn.addEventListener("click",()=>{hamBtn.classList.contains("open")?(hamBtn.classList.remove("open"),navBar.removeAttribute("id")):(hamBtn.classList.add("open"),navBar.setAttribute("id","show-menu"))});
