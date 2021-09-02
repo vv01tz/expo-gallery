@@ -1,0 +1,22 @@
+.images-container{
+    column-count: 3;
+}
+
+.images-container img{
+    padding: 2rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 57.5rem){
+    .images-container{
+        column-count: 2;
+    }
+
+}
+
+@media(max-width: 40rem){
+    .images-container{
+        column-count: 1;
+    }
+}

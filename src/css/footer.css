@@ -1,0 +1,15 @@
+footer{
+    width: 100%;
+    max-width: 1440px;
+    padding: 1rem;
+    font-size: 1.7rem;
+    text-align: right;
+    padding-right: 8rem;
+    align-self: flex-end;
+}
+
+@media (max-width: 37.5rem){
+    footer{
+        padding-right: 2rem;
+    }
+}

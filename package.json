@@ -1,0 +1,26 @@
+{
+  "name": "expo-gallery",
+  "version": "1.0.0",
+  "description": "Website for an art gallery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arnovolts/expo-gallery.git"
+  },
+  "author": "Arno Volts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arnovolts/expo-gallery/issues"
+  },
+  "homepage": "https://github.com/arnovolts/expo-gallery#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-postcss": "^9.0.1"
+  }
+}

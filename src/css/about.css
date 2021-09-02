@@ -1,0 +1,44 @@
+/* A PROPOS */
+.apropos__banner {
+    width: 100%;
+    height: 12vh;
+}
+
+.apropos__banner img{
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    object-fit: cover;
+}
+
+
+.apropos__main-heading{
+    font-size: 6rem;
+    margin-top: 1.5rem;
+}
+
+.apropos__text{
+    max-width: 40rem;
+    line-height: 1.7;
+}
+
+@media (max-width: 57.5rem){
+    .apropos__main-heading{
+        font-size: 3rem;
+    }
+
+
+    .apropos__text{
+        width: 55%;
+    }
+}
+
+@media(max-width: 40rem){
+    .apropos__main-heading{
+        font-size: 2.5rem;
+    }
+
+    .apropos__text{
+        width: 80%;
+    }
+}
