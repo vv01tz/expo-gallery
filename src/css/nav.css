@@ -116,11 +116,15 @@
         justify-content: center;
         display: none;
         text-align: center;
-        z-index: 2;
     }
     
     .main-header__nav-item{
         display: block;
+    }
+
+    .main-header__nav-item + .main-header__nav-item{
+        padding: 0;
+        padding-top: 1em;
     }
 
     .main-header__nav-item > a{

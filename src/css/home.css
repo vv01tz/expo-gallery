@@ -1,6 +1,7 @@
 .container-fluid{
     position: relative;
     padding: 0;
+    z-index: -1;
 }
 
 .title-section__main-header{
